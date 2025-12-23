@@ -28,7 +28,7 @@ jobs:
   cost-report:
     runs-on: ubuntu-latest
     steps:
-      - uses: CloudExpat/cloudexpat-github-action-example@v1
+      - uses: CloudExpat/cost-report@v1
         with:
           api-key: ${{ secrets.CLOUDEXPAT_API_KEY }}
 ```
@@ -117,7 +117,7 @@ on:
 ### Disable PR Comments
 
 ```yaml
-- uses: CloudExpat/cloudexpat-github-action-example@v1
+- uses: CloudExpat/cost-report@v1
   with:
     api-key: ${{ secrets.CLOUDEXPAT_API_KEY }}
     post-comment: 'false'
@@ -151,7 +151,7 @@ Ensure your workflow has `pull-requests: write` permission.
 
 - [CloudExpat Dashboard](https://app.cloudexpat.com)
 - [Documentation](https://docs.cloudexpat.com)
-- [Report Issues](https://github.com/CloudExpat/cloudexpat-github-action-example/issues)
+- [Report Issues](https://github.com/CloudExpat/cost-report/issues)
 
 ## License
 
