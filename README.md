@@ -147,6 +147,8 @@ Ensure your workflow has `pull-requests: write` permission.
 - The action requires minimal permissions (`pull-requests: write`)
 - Revoke API keys anytime from the CloudExpat dashboard
 
+**Note on Fork PRs:** GitHub does not expose secrets to workflows triggered by PRs from forks. This action will only post comments on PRs from branches within the same repository.
+
 ## Links
 
 - [CloudExpat Dashboard](https://app.cloudexpat.com)
