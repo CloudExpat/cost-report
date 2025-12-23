@@ -240,3 +240,4 @@ Check that the workflow has `pull-requests: write` permission and that GitHub Ac
 ## License
 
 MIT License - see [LICENSE](LICENSE) for details.
+
