@@ -39,7 +39,7 @@ jobs:
         id: fetch-report
         env:
           CLOUDEXPAT_API_KEY: ${{ secrets.CLOUDEXPAT_API_KEY }}
-          CLOUDEXPAT_API_URL: ${{ vars.CLOUDEXPAT_API_URL || 'https://dev-data.cloudexpat.com' }}
+          CLOUDEXPAT_API_URL: ${{ vars.CLOUDEXPAT_API_URL || 'https://data.cloudexpat.com' }}
         run: |
           # Validate API key is set
           if [ -z "$CLOUDEXPAT_API_KEY" ]; then
